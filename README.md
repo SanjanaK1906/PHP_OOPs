@@ -15,3 +15,9 @@ An inherited class is defined by using the extends keyword.
 A class constant is declared inside a class with the const keyword. A constant cannot be changed once it is declared.
 We can access a constant from outside the class by using the class name followed by the scope resolution operator (::) followed by the constant name
 we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name
+# abstraction 
+Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.
+when a child class is inherited from an abstract class, we have the following rules:
+The child class method must be defined with the same name and it redeclares the parent abstract method
+The child class method must be defined with the same or a less restricted access modifier
+The number of required arguments must be the same. However, the child class may have optional arguments in addition
