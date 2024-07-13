@@ -8,3 +8,6 @@ PHP_OOPs
 public - the property or method can be accessed from everywhere. This is default
 protected - the property or method can be accessed within the class and by classes derived from that class
 private - the property or method can ONLY be accessed within the class
+#Inheritance in OOP = When a class derives from another class.
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+An inherited class is defined by using the extends keyword.
