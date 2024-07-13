@@ -13,4 +13,3 @@ $ani1 = new Animals("white","Rabbit");
 $ani1->data();
 
 
-//encapsulation -object-oriented programming to bundle data and methods into easy-to-use units. eg. methods and variables in class
