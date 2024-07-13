@@ -11,3 +11,7 @@ private - the property or method can ONLY be accessed within the class
 # Inheritance in OOP = When a class derives from another class.
 The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
 An inherited class is defined by using the extends keyword.
+# const
+A class constant is declared inside a class with the const keyword. A constant cannot be changed once it is declared.
+We can access a constant from outside the class by using the class name followed by the scope resolution operator (::) followed by the constant name
+we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name
